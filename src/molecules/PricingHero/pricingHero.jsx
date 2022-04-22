@@ -5,9 +5,8 @@ export const PricingHeroWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 30rem;
-  /* padding-top: 4rem; */
+  padding-top: 4rem;
 
   .hero-desc{
     width: 59rem;
