@@ -6,7 +6,7 @@ export const PartnersWrapper = styled.section`
  position: relative;
 
  img{
-   width: 105%;
+   width: 107%;
    height: 12rem;
    margin-left: -4rem ;
  }

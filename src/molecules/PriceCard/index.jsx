@@ -14,11 +14,11 @@ const PriceCard = ({cardData, isYearly, errorMessage}) => {
 
 
   const monthlyPrice = () => (
-    <h1 className='price'>{splitMthPrice[0]}<sup>.99</sup> </h1>
+    <h1 className='price'>${splitMthPrice[0]}<sup>.99</sup> </h1>
   ) 
 
   const yearlyPrice = () => (
-    <h1 className='price'>{splitYrPrice}</h1>
+    <h1 className='price'>${splitYrPrice}</h1>
   ) 
 
   return (

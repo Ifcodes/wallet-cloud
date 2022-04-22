@@ -6,6 +6,7 @@ export const PriceCardWrapper = styled.div`
   background-color: white;
   height: 35rem;
   width: 28%;
+  max-width: 28rem;
   display: flex;
   flex-direction: column;
   justify-content: ${props => props.emptyPage && "center"};

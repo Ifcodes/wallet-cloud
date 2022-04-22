@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavWrapper = styled.nav`
   background-color: ${props => props.greenBg ? props.theme.colors.primary : "white"};
-  height: 4rem;
+  height: 6rem;
   display: flex;
   gap: 1rem;
   padding: 0 6rem;
