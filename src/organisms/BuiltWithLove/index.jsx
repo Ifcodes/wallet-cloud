@@ -6,7 +6,7 @@ import { Headings } from '../../atoms/Typography'
 import Chart from '../../atoms/vectors/ChartIcon'
 import CloudConnectionIcon from '../../atoms/vectors/CloudConnection'
 import { useState } from 'react'
-import CodeBox from '../../atoms/vectors/CodeBox'
+import codebox from '../../atoms/vectors/code-box.png'
 import Description from '../../molecules/DescriptionCard'
 import { Wrapper } from './builtStyles'
 
@@ -20,7 +20,11 @@ const BuiltWithLove = () => {
   return (
     <Wrapper>
       <div className='codeBox-cont'>
-        <CodeBox />
+        <div className='codebox-img-cont'>
+          <img src={codebox} alt='code-illustration' 
+          className='codebox'
+          />
+        </div>
         <div className='btn-cont'>
           <Button buttonText={"Get the API"}/>
           <Button buttonText={"API Documentation"} greenBg hasOutline />

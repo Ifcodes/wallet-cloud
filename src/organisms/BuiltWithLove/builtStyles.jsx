@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 7.5rem 0;
@@ -9,7 +10,16 @@ export const Wrapper = styled.section`
   .codeBox-cont{
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+  }
+
+  .codeBox{
+    width: 80%;
+    height: 80%;
+  }
+
+  img{
+    max-width: 100%;
   }
 
   .description-cont{

@@ -7,7 +7,7 @@ export const PartnersWrapper = styled.section`
 
  img{
    width: 107%;
-   height: 12rem;
+   height: 25vh;
    margin-left: -4rem ;
  }
 `

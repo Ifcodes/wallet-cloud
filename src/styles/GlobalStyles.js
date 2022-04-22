@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
 
   html,
   body{
-    max-width: 100%;
     padding: 0;
     margin: 0;
     font-family: "TT Firs Neue", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,6 +16,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   *{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 

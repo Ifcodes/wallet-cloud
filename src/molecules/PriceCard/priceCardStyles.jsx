@@ -97,8 +97,8 @@ export const PriceCardWrapper = styled.div`
     align-items: center;
     margin: 1.7rem 0;
 
-    /* span{
-      margin-left: 1rem;
-    } */
+    span{
+      background-color: transparent;
+    }
   }
 `
