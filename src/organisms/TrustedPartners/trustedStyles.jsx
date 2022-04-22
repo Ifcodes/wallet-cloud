@@ -14,6 +14,6 @@ export const TrustedPartnersWrapper = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    
+    margin-top: 2rem;
   }
 `
