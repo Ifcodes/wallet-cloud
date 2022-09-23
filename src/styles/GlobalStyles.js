@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import TTFirsNeue from '../public/TTFirsNeueFont/stylesheet.css'
+import { createGlobalStyle } from "styled-components";
+import TTFirsNeue from "../public/TTFirsNeueFont/stylesheet.css";
 const GlobalStyles = createGlobalStyle` 
   @font-face {
     font-family: "TT Firs Neue";
@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: "TT Firs Neue", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     color: #000000;
+    scroll-behavior: smooth;
   }
 
   *{
@@ -37,5 +38,5 @@ const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: #219653;
   }
-`
-export default GlobalStyles
+`;
+export default GlobalStyles;
